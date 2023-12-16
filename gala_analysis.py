@@ -102,7 +102,7 @@ def overview_page():
         return download_link
 
 # Create a link to download the PDF
-    pdf_link =create_download_link("Gala_Music_Whitepaper.pdf")
+    pdf_link =create_download_link("Download Link","Gala_Music_Whitepaper.pdf")
 
 # Display the link using st.markdown
     st.markdown(pdf_link, unsafe_allow_html=True)
