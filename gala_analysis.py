@@ -423,7 +423,10 @@ def Social_activity_page():
 
     st.subheader("Other Social Media:")
     st.write(
-        "It has various other social media channels like [Instagram](https://www.instagram.com/gogalagames/), [Twitter](https://twitter.com/GoGalaGames), and [Coin Market Cap](https://coinmarketcap.com/community/profile/Gala_CMC/)."
+        "It has various other social media channels like Instagram, Twitter and Coin Market Cap."
+        "[Instagram](https://www.instagram.com/gogalagames/)"
+        "[Twitter](https://twitter.com/GoGalaGames)"
+        "[Coin Market Cap](https://coinmarketcap.com/community/profile/Gala_CMC/)"
     )
     
     
