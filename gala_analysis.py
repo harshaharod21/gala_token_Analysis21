@@ -398,13 +398,14 @@ def Social_activity_page():
         </div>
         """,
         unsafe_allow_html=True
+    )
         
 
     st.subheader("Live Streams and Webinars:")
     st.write(
         "Teams behind blockchain projects often organize live streams, webinars, or AMA (Ask Me Anything) sessions "
         "where community members can interact with developers, ask questions, and get updates on the project's development."
-        "[Youtube](https://www.youtube.com/@GalaGames)
+        "[Youtube](https://www.youtube.com/@GalaGames)"
     )
     img=Image.open("Screenshot 2023-12-17 210914.png")
     st.image(img)
@@ -422,7 +423,7 @@ def Social_activity_page():
     st.write(
         "Gala has made its presence on the Discord server with various channels for Gala Games, Gala Music, Gala Film, "
         "Vox Gala Film, and also for its popular game SpiderTank. It has over 190k members on its Gala Games server."
-        "[Discord](https://discord.com/invite/kCwZquRJ9x)
+        "[Discord](https://discord.com/invite/kCwZquRJ9x)"
     )
     img=Image.open("discord_gala.png")
     st.image(img)
@@ -430,8 +431,8 @@ def Social_activity_page():
     st.subheader("Other Social Media:")
     st.write(
         "It has various other social media channels like Instagram, Twitter and Coin Market Cap."
-        "[Instagram](https://www.instagram.com/gogalagames/)                        "
-        "[Twitter](https://twitter.com/GoGalaGames)                       "
+        "[Instagram](https://www.instagram.com/gogalagames/)                           "
+        "[Twitter](https://twitter.com/GoGalaGames)                             "
         "[Coin Market Cap](https://coinmarketcap.com/community/profile/Gala_CMC/)"
     )
     img=Image.open("social_media.png")
