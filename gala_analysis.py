@@ -406,6 +406,8 @@ def Social_activity_page():
         "where community members can interact with developers, ask questions, and get updates on the project's development."
         "[Youtube](https://www.youtube.com/@GalaGames)
     )
+    img=Image.open("Screenshot 2023-12-17 210914.png")
+    st.columns(3)[1].image(img)
 
     st.subheader("Gala Games on Medium:")
     st.write(
@@ -413,6 +415,8 @@ def Social_activity_page():
         "It has over 19k followers on its Medium channel."
         "[Medium](https://gogalagames.medium.com/)
     )
+    img=Image.open("Screenshot 2023-12-17 211108.png")
+    st.columns(3)[1].image(img)
 
     st.subheader("Gala on Discord:")
     st.write(
@@ -420,6 +424,8 @@ def Social_activity_page():
         "Vox Gala Film, and also for its popular game SpiderTank. It has over 190k members on its Gala Games server."
         "[Discord](https://discord.com/invite/kCwZquRJ9x)
     )
+    img=Image.open("discord_gala.png")
+    st.columns(3)[1].image(img)
 
     st.subheader("Other Social Media:")
     st.write(
@@ -428,11 +434,8 @@ def Social_activity_page():
         "[Twitter](https://twitter.com/GoGalaGames)"
         "[Coin Market Cap](https://coinmarketcap.com/community/profile/Gala_CMC/)"
     )
-    
-    
-
-
-
+    img=Image.open("social_media.png")
+    st.columns(3)[1].image(img)
 
 def project_milestone_page():
     img=Image.open("792774 (1).jpg")
