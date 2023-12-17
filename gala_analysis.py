@@ -38,7 +38,7 @@ def overview_page():
 
     st.markdown("## GALA Games")
     img=Image.open("games.jpg")
-    st.columns(3)[1].image(img)
+    st.image(img)
     
     # Set background color to snow blue
     st.markdown(
@@ -69,7 +69,7 @@ def overview_page():
     # GALA music Section
     st.markdown("## GALA Music")
     img=Image.open("gala_music.jpg")
-    st.columns(3)[1].image(img)
+    st.image(img)
     
     st.markdown(
         """
@@ -107,10 +107,10 @@ def overview_page():
 # Display the link using st.markdown
     st.markdown(pdf_link, unsafe_allow_html=True)
 
-    # GALA Games Section
+    # GALA film Section
     st.markdown("## GALA Films")
     img=Image.open("gala_film.jpg")
-    st.columns(3)[1].image(img)
+    st.image(img)
     st.markdown(
         """
         <style>
@@ -124,7 +124,7 @@ def overview_page():
         unsafe_allow_html=True
     )
 
-    # GALA Music content inside the styled box
+    # GALA film content inside the styled box
     st.markdown(
         """
         <div class="gala-music-box">
@@ -407,7 +407,7 @@ def Social_activity_page():
         "[Youtube](https://www.youtube.com/@GalaGames)
     )
     img=Image.open("Screenshot 2023-12-17 210914.png")
-    st.columns(3)[1].image(img)
+    st.image(img)
 
     st.subheader("Gala Games on Medium:")
     st.write(
@@ -416,7 +416,7 @@ def Social_activity_page():
         "[Medium](https://gogalagames.medium.com/)
     )
     img=Image.open("Screenshot 2023-12-17 211108.png")
-    st.columns(3)[1].image(img)
+    st.image(img)
 
     st.subheader("Gala on Discord:")
     st.write(
@@ -425,17 +425,17 @@ def Social_activity_page():
         "[Discord](https://discord.com/invite/kCwZquRJ9x)
     )
     img=Image.open("discord_gala.png")
-    st.columns(3)[1].image(img)
+    st.image(img)
 
     st.subheader("Other Social Media:")
     st.write(
         "It has various other social media channels like Instagram, Twitter and Coin Market Cap."
-        "[Instagram](https://www.instagram.com/gogalagames/)"
-        "[Twitter](https://twitter.com/GoGalaGames)"
+        "[Instagram](https://www.instagram.com/gogalagames/)                        "
+        "[Twitter](https://twitter.com/GoGalaGames)                       "
         "[Coin Market Cap](https://coinmarketcap.com/community/profile/Gala_CMC/)"
     )
     img=Image.open("social_media.png")
-    st.columns(3)[1].image(img)
+    st.image(img)
 
 def project_milestone_page():
     img=Image.open("792774 (1).jpg")
