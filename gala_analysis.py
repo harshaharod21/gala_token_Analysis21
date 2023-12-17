@@ -414,7 +414,7 @@ def Social_activity_page():
     st.write(
         "Blogs are written on Medium by Gala Games to keep the audience updated. "
         "It has over 19k followers on its Medium channel."
-        "[Medium](https://gogalagames.medium.com/)
+        "[Medium](https://gogalagames.medium.com/)"
     )
     img=Image.open("Screenshot 2023-12-17 211108.png")
     st.image(img)
